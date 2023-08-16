@@ -12281,6 +12281,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -3rem;
+  z-index: 2 !important;
 }
 @media (max-width: 992px) {
   .nav-hero .features {
@@ -12298,6 +12299,7 @@ section {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   text-align: center;
+  z-index: 2 !important;
 }
 .nav-hero .features div i {
   font-size: 2rem;
@@ -12392,16 +12394,20 @@ section {
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
+  transition: all 0.8s;
 }
 .services .services-row .service:hover .hidden-info p,
 .services .services-row .service:hover .hidden-info a {
   display: block;
 }
+.services .services-row .service:hover .img-div {
+  filter: blur(3px);
+}
 .services .services-row .service:hover .img-div img {
   width: 100%;
   min-height: 25rem;
   object-fit: cover;
-  filter: brightness(20%);
+  filter: contrast(18%);
 }
 .services .services-row .service .hidden-info {
   position: absolute;
@@ -12424,6 +12430,7 @@ section {
   display: none;
   text-align: center;
   width: 95%;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 .services .services-row .service .hidden-info a {
   display: none;
@@ -12435,6 +12442,7 @@ section {
   margin: 0 auto;
   margin-top: 0.7rem;
   border-radius: 8px;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 .services .services-row .service .img-div {
   width: 100%;
@@ -12496,6 +12504,41 @@ section {
   filter: brightness(30%);
   z-index: -1;
 }
+.cta .custom-shape-divider-top-1692191705 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.cta .custom-shape-divider-top-1692191705 svg {
+  position: relative;
+  display: block;
+  width: calc(164% + 1.3px);
+  height: 25px;
+}
+.cta .custom-shape-divider-top-1692191705 .shape-fill {
+  fill: #F8F8F8;
+}
+.cta .custom-shape-divider-bottom-1692191736 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.cta .custom-shape-divider-bottom-1692191736 svg {
+  position: relative;
+  display: block;
+  width: calc(164% + 1.3px);
+  height: 25px;
+}
+.cta .custom-shape-divider-bottom-1692191736 .shape-fill {
+  fill: #F8F8F8;
+}
 
 .why-us .why-us-row {
   display: grid;
@@ -12519,7 +12562,7 @@ section {
 }
 .why-us .why-us-img img {
   width: 100%;
-  height: 15rem;
+  height: 100%;
   object-fit: cover;
   border-radius: 10% 30% 50% 70%;
   filter: brightness(90%);
@@ -12694,6 +12737,17 @@ section {
   width: 80%;
   margin-left: 1.5rem;
 }
+.flex-description .card::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #048c04;
+  top: -1rem;
+  right: -1rem;
+  z-index: -1;
+  border-radius: 8px;
+}
 @media (max-width: 992px) {
   .flex-description .card {
     height: 100%;
@@ -12705,6 +12759,10 @@ section {
 .flex-description .card img {
   object-fit: cover;
   max-height: 400px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  border: none;
 }
 @media (max-width: 992px) {
   .flex-description .card img {
