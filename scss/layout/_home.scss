@@ -26,13 +26,18 @@
         margin-bottom: 4.5rem;
     }
 
+    .top-information {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(12, 48, 1, 1) 9%, rgba(14, 54, 1, 1) 63%, rgba(17, 53, 9, 1) 92%, rgba(0, 0, 0, 1) 100%);
+    }
+
     .nav-hero {
         .hero {
             // height: 80vh;
             position: relative;
 
             .hero-content {
-                padding-top: 110px;
+                padding-top: 130px;
                 padding-bottom: 150px;
 
                 width: 80%;
@@ -233,6 +238,7 @@
 
                     .img-div {
                         filter: blur(3px);
+
                         img {
                             width: 100%;
                             min-height: 25rem;
@@ -351,6 +357,7 @@
             filter: brightness(30%);
             z-index: -1;
         }
+
         .custom-shape-divider-top-1692191705 {
             position: absolute;
             top: 0;
@@ -359,14 +366,14 @@
             overflow: hidden;
             line-height: 0;
         }
-        
+
         .custom-shape-divider-top-1692191705 svg {
             position: relative;
             display: block;
             width: calc(164% + 1.3px);
             height: 25px;
         }
-        
+
         .custom-shape-divider-top-1692191705 .shape-fill {
             fill: #F8F8F8;
         }
@@ -380,14 +387,14 @@
             line-height: 0;
             transform: rotate(180deg);
         }
-        
+
         .custom-shape-divider-bottom-1692191736 svg {
             position: relative;
             display: block;
             width: calc(164% + 1.3px);
             height: 25px;
         }
-        
+
         .custom-shape-divider-bottom-1692191736 .shape-fill {
             fill: #F8F8F8;
         }
@@ -630,7 +637,8 @@
             height: 80%;
             width: 80%;
             margin-left: 1.5rem;
-            &::after{
+
+            &::after {
                 position: absolute;
                 content: "";
                 width: 100%;
@@ -656,6 +664,7 @@
                 border-radius: 8px;
                 position: relative;
                 border: none;
+
                 @media (max-width: 992px) {
                     max-height: 300px;
                 }
