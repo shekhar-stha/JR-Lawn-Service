@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage | J&R Lawn Care</title>
+    <title>Lawn Services in Baytown, Texas | J&R Lawn Care</title>
 
     <meta name="description"
         content="Transform your outdoor space with J&R Lawn Service. We offer professional residential and commercial landscaping in Baytown, Texas. From design to maintenance, experience exceptional craftsmanship and tailored solutions for a beautiful landscape.">
@@ -19,11 +19,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="manifest" href="img//site.webmanifest">
 
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,63 +28,68 @@
 <body>
     <section class="nav-hero">
         <!-- Top of the navbar -->
-        <div class="top-information">
-            <div class="container py-3 d-flex justify-content-between">
-                <div class="d-flex">
-                    <p class="text-white fw-500 ms-4">
-                        <span class="me-3"><i class="fs-15 me-1 fa-solid fa-location-dot text-primary"></i> Baytown,
-                            Texas</span>
-                    </p>
-                    <p class="text-white fw-500 ms-4 d-md-block d-none">
-                        <i class="fa-solid fa-award text-primary"></i> Reliable Lawn Services in Baytown, Texas
-                    </p>
-                </div>
-                <a href="tel:+13463429763" title="phone number" class="text-white fw-500"><i
-                        class="fs-15 fa-solid fa-phone text-primary"></i> +1 (346) 342-9763</a>
+        <div class="top-information" data-aos="fade-up">
+            <div class="container py-3 d-flex justify-content-center">
+                <a href="tel:+13463429763" title="phone number" class="text-white fw-500">
+                    Call Now: <i class="fs-15 fa-solid fa-phone text-primary"></i> +1 (346) 342-9763</a>
             </div>
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar bg-white navbar-expand-xl navbar-light ">
+        <nav class="navbar bg-white navbar-expand-xl navbar-light " data-aos="fade-up">
             <div class="container py-3">
-
-                <a title="logo" class="navbar-brand mx-5 d-xl-none d-inline" href="/index.html"><img src="/img/logo.png"
+                <a title="logo" class="navbar-brand d-xl-none d-inline" href="/index.html"><img src="/img/logo.png"
                         alt="Logo"></a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="btn d-xl-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+                    <i class="fa-solid fa-bars fs-24"></i>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-xl-0 mb-3 d-flex justify-content-center w-100">
-                        <div class="d-xl-flex justify-content-around align-items-center">
-                            <li class="nav-item me-xl-4">
-                                <a title="home" class="nav-link" href="/index.html">Lawn Services</a>
-                            </li>
+                <div class="offcanvas-xl offcanvas-end w-100" tabindex="-1" id="offcanvasResponsive"
+                    aria-labelledby="offcanvasResponsiveLabel">
+                    <div class="offcanvas-header bg-dark">
 
-                            <li class="nav-item ms-xl-4">
-                                <a title="home" class="nav-link" href="/index.html">Landscaping Services</a>
-                            </li>
-                        </div>
+                        <a title="logo" class="navbar-brand mb-0 d-xl-none d-inline" href="/index.html">
+                            <img class="mb-0" src="/img/logo.png" alt="Logo">
+                        </a>
 
-                        <a title="logo" class="navbar-brand mx-4 px-4 d-xl-inline d-none" href="/index.html"><img
-                                src="/img/logo.png" alt="Logo"></a>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body w-100">
+                        <ul class="navbar-nav mb-xl-0 mb-3 d-flex justify-content-center w-100">
+                            <div class="d-xl-flex justify-content-around align-items-center">
+                                <li class="nav-item me-xl-4">
+                                    <a title="Lawn Services" class="nav-link" href="/index.html">Lawn Services</a>
+                                </li>
 
-                        <div class="d-xl-flex justify-content-around align-items-center">
-                            <li class="nav-item me-xl-4">
-                                <a title="home" class="nav-link" href="/index.html">Commercial Services</a>
-                            </li>
+                                <li class="nav-item ms-xxl-4">
+                                    <a title="Landscaping Services" class="nav-link" href="/index.html">Landscaping
+                                        Services</a>
+                                </li>
+                            </div>
 
-                            <li class="nav-item ms-xl-4">
-                                <a title="home" class="nav-link" href="/index.html">Residential Services</a>
-                            </li>
-                        </div>
-                    </ul>
-                    <a class="nav-button w-100 btn btn-primary fw-500 fs-19" href="tel:+13463429763">
-                        Contact Us
-                    </a>
+                            <a title="logo" class="navbar-brand mx-4 px-4 d-xl-inline d-none" href="/index.html"><img
+                                    src="/img/logo.png" alt="Logo"></a>
+
+                            <div class="d-xl-flex justify-content-around align-items-center">
+                                <li class="nav-item me-xl-4">
+                                    <a title="Commercial Services" class="nav-link" href="/index.html">Commercial
+                                        Services</a>
+                                </li>
+
+                                <li class="nav-item ms-xxl-4">
+                                    <a title="Residential Services" class="nav-link" href="/index.html">Residential
+                                        Services</a>
+                                </li>
+                            </div>
+                        </ul>
+                        <a title="Contact Us" class="nav-button w-100 d-xl-none d-block btn btn-primary fw-500 fs-19"
+                            href="tel:+13463429763">
+                            Call Now
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -97,7 +98,7 @@
         <div class="hero">
             <div class="container h-100">
 
-                <div class="d-flex flex-column justify-content-center h-75 hero-content">
+                <div class="d-flex flex-column justify-content-center h-75 hero-content" data-aos="fade-up">
                     <h1 class="text-white mb-4">Providing the Best <span class="text-white">Lawn Services</span> in
                         <span class="text-primary">Baytown</span>, Texas
                     </h1>
@@ -113,7 +114,7 @@
                         </a>
                         <a title="Contact" href="/contact.html"
                             class="btn btn-outline-primary border-2 ms-4 px-4 fs-19 d-sm-block d-none">
-                            <i class="fa-solid fa-location-dot me-1"></i> Service Areas
+                            <i class="fa-solid fa-gear me-1"></i> Our Services
                         </a>
                     </div>
                 </div>
@@ -122,8 +123,9 @@
             <div class="overlay">
 
             </div>
-            <img class="hero-img" style="transform: scaleX(-1);" src="/img/garden-work.jpeg"
-                alt="hero background of gardener">
+            <img class="hero-img d-md-block d-none" style="transform: scaleX(-1);" src="/img/garden-work.jpeg"
+                alt="Hero background of gardener">
+            <img class="hero-img d-md-none d-block" src="/img/mobile-hero.jpg" alt="Hero background of Lawn Mowing">
 
             <div class="custom-shape-divider-bottom-1692184368">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -141,6 +143,7 @@
             </div>
         </div>
 
+        <!-- Three Feature below hero -->
         <div data-aos="fade-up" class="features container pb-3">
             <div class="col">
                 <i class="fa-solid fa-house-chimney"></i>
@@ -160,10 +163,35 @@
                 <p>Enjoying a well-maintained landscape without the hassle.</p>
             </div>
         </div>
-
     </section>
 
-    <section data-aos="fade-up" id="service" class="services py-5 position-relative">
+    <!-- First About Us -->
+    <section class="flex-description position-relative my-5 py-3" data-aos="fade-up">
+        <div class="container flex">
+            <div class="info-div">
+                <h3 class="header">J&R Lawn Care & Landscaping Services</h3>
+                <p class="fs-18 mt-3">
+                    Introducing J&R Lawn Service, your premier choice for landscaping in Baytown,
+                    Texas. Our dedicated team of experts transforms ordinary outdoor spaces into captivating
+                    landscapes that leave a lasting impression. With meticulous attention to detail and tailored
+                    services, we create visually stunning environments that set your business apart.
+                    <br><br>
+                    Experience the difference with our expert design, installation, and maintenance services. From
+                    vibrant flower beds to elegant hardscapes, we bring your vision to life with exceptional
+                    results.
+                </p>
+                <a title="Call Now" href="tel:+13463429763" class="mt-4 btn btn-primary px-4 fs-18 rounded-1"> <i
+                        class="fa-solid fa-phone-volume me-2"></i>Call Now</a>
+            </div>
+            <div class="img-div">
+                <img class="h-100" style="filter: brightness(90%);" class="img-fluid rounded"
+                    src="/img/orange-house.jpg" alt="Residential House">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section data-aos="fade-up" id="service" class="services py-5 position-relative" data-aos="fade-up">
         <div class="custom-shape-divider-top-1692183406">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
@@ -187,32 +215,52 @@
                         requirements.
                         Our dedicated team of professionals is skilled in providing the following services:</p>
 
-                    <a href="tel:+13463429763" class="btn btn-primary fs-19 mt-5"> <i
+                    <a href="tel:+13463429763" class="btn btn-primary fs-19 mt-5" title="Call Now"> <i
                             class="fa-solid fa-phone-volume me-2"></i>Call Now</a>
-
-                    <a href="/lawn-care-near-richmond.html" class="btn btn-outline-primary fs-19 mt-5 ms-2">Learn
-                        More</a>
             </div>
             <div class="services-row">
                 <div class="service">
                     <div class="img-div">
-                        <img style="transform: scaleX(-1);" src="/img/lawn-mowing.jpeg" alt="Mowing Machine">
+                        <img src="/img/mulching.jpg" alt="Mulching">
                     </div>
                     <div class="hidden-info">
-                        <h3>Lawn Mowing</h3>
-                        <p>Keep your grass at the perfect height for a healthy and well-maintained appearance.</p>
-                        <a href="tel:+13463429763">Call Now</a>
+                        <h3>Mulching</h3>
+                        <p>Enhance the aesthetics of your landscape while providing essential nutrients to your plants.
+                        </p>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
                     </div>
                 </div>
 
                 <div class="service">
                     <div class="img-div">
-                        <img src="/img/lawn-blowing.jpg" alt="Lawn Blowing">
+                        <img src="/img/yard-cleanup.jpg" alt="Yard Cleanup">
                     </div>
                     <div class="hidden-info">
-                        <h3>Blowing</h3>
+                        <h3>Yard Cleanup</h3>
+                        <p>Improve soil drainage and promote healthier root growth for a lush and vibrant lawn.</p>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="img-div">
+                        <img style="transform: scaleX(-1);" src="/img/lawn-with-home.jpg" alt="Lawn Mowing">
+                    </div>
+                    <div class="hidden-info">
+                        <h3>Lawn Mowing</h3>
+                        <p>Keep your grass at the perfect height for a healthy and well-maintained appearance.</p>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="img-div">
+                        <img src="/img/outdoor.jpg" alt="Landscaping">
+                    </div>
+                    <div class="hidden-info">
+                        <h3>Landscape Design</h3>
                         <p> Remove grass clippings and debris, leaving your outdoor space tidy and neat.</p>
-                        <a href="tel:+13463429763">Call Now</a>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
                     </div>
                 </div>
 
@@ -223,41 +271,62 @@
                     <div class="hidden-info">
                         <h3>Hedge Trimming</h3>
                         <p>Maintain neatly shaped hedges that add privacy and visual appeal to your property.</p>
-                        <a href="tel:+13463429763">Call Now</a>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
                     </div>
                 </div>
 
                 <div class="service">
                     <div class="img-div">
-                        <img src="/img/weed-whacking.jpg" alt="Weed Whacking">
+                        <img src="/img/sod-installation.jpg" alt="SOD Installation">
                     </div>
                     <div class="hidden-info">
-                        <h3>Weed Whacking</h3>
+                        <h3>SOD Installation</h3>
                         <p>Eliminate unsightly weeds and keep them at bay for a pristine lawn.</p>
-                        <a href="tel:+13463429763">Call Now</a>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
                     </div>
                 </div>
 
                 <div class="service">
                     <div class="img-div">
-                        <img src="/img/aerating.jpg" alt="Aerating">
+                        <img src="/img/pressure-washing.jpg" alt="Pressure Washing">
                     </div>
                     <div class="hidden-info">
-                        <h3>Aerating</h3>
+                        <h3>Pressure Washing</h3>
                         <p>Improve soil drainage and promote healthier root growth for a lush and vibrant lawn.</p>
-                        <a href="tel:+13463429763">Call Now</a>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
                     </div>
                 </div>
 
                 <div class="service">
                     <div class="img-div">
-                        <img src="/img/mulching.jpg" alt="Mulching">
+                        <img src="/img/grass-seeding.jpeg" alt="Grass Seeding">
                     </div>
                     <div class="hidden-info">
-                        <h3>Mulching</h3>
-                        <p>Enhance the aesthetics of your landscape while providing essential nutrients to your plants.
-                        </p>
-                        <a href="tel:+13463429763">Call Now</a>
+                        <h3>Grass Seeding</h3>
+                        <p>Improve soil drainage and promote healthier root growth for a lush and vibrant lawn.</p>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="img-div">
+                        <img src="/img/lawn-fertilizing.jpeg" alt="Fertilizing">
+                    </div>
+                    <div class="hidden-info">
+                        <h3>Fertilizing</h3>
+                        <p>Improve soil drainage and promote healthier root growth for a lush and vibrant lawn.</p>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="img-div">
+                        <img src="/img/tree-trimming.jpg" alt="Tree Trimming">
+                    </div>
+                    <div class="hidden-info">
+                        <h3>Tree Trimming</h3>
+                        <p>Improve soil drainage and promote healthier root growth for a lush and vibrant lawn.</p>
+                        <a href="tel:+13463429763" title="Call Now">Call Now</a>
                     </div>
                 </div>
             </div>
@@ -279,13 +348,13 @@
         <img class="bg-img" src="/img/aerial-view-lawn-mowing.jpg" alt="aerial view lawn mowing">
     </section>
 
-
-    <section class="why-us">
+    <!-- Why Us -->
+    <section class="why-us" data-aos="fade-up">
         <div class="container">
             <h3 class="header">Why people choose Us </h3>
 
             <div class="d-lg-flex justify-content-between">
-                <div class="col-lg-8 pe-lg-3">
+                <div class="col-lg-7 col-xl-8 pe-lg-3">
                     <p class="fw-500 text-info mb-5 lh-25 mt-3"><span>5 Years of Excellence:</span> For over half a
                         decade, we
                         have proudly
@@ -308,27 +377,27 @@
                         <p><i class="fa-solid fa-trophy"></i> Best quality with premium materials.</p>
                     </div>
                     <div class="d-flex justify-content-start mt-5">
-                        <a class="btn btn-primary btn-lg px-4" href="tel:+13463429763" title="CTA">
+                        <a class="btn btn-primary btn-lg px-4" href="tel:+13463429763" title="Call Now">
                             <i class="fa-solid fa-phone-volume me-2"></i> CALL NOW
                         </a>
                     </div>
                 </div>
-                <div class="why-us-img col-lg-4 mt-lg-0 mt-5 ps-lg-3">
-                    <img src="/img/happy-kid.jpg" alt="happy kid">
+                <div class="why-us-img col-lg-5 col-xl-4 mt-lg-0 mt-5 ps-lg-3">
+                    <img src="/img/resident-lawn.jpg" alt="Resident Lawn">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta d-flex align-items-center justify-content-center">
+    <!-- Call To Action -->
+    <section class="cta d-flex align-items-center justify-content-center" data-aos="fade-up">
         <img class="cta-img" src="/img/watering-plants.jpeg" alt="gardener-cutting-grass">
         <div class="container text-lg-start text-center">
             <h2 class="text-white mb-5 col-lg-9">
-                Ready for a lawn makeover? Unlock your dream yard today. Schedule your
-                consultation and transform your outdoor oasis!
+                Get a Free Estimate for your Lawn Services.
             </h2>
 
-            <a class="btn btn-primary rounded-1 btn-lg fw-500 px-5" title="Free quote" href="tel:+13463429763">
+            <a class="btn btn-primary rounded-1 btn-lg fw-500 px-5" title="Call Now" href="tel:+13463429763">
                 <i class="fa-solid fa-phone-volume me-3"></i>Call Now
             </a>
         </div>
@@ -364,33 +433,64 @@
 
     </section>
 
-    <section class="flex-description position-relative my-5 py-3">
-        <div class="container d-lg-flex">
-            <div class="col-lg-6">
-                <h3 class="header">J&R Lawn Care & Landscaping Services</h3>
-                <p class="fs-18 mt-3">
+    <!-- Commercial Residential -->
+    <section class="commercial-residential" data-aos="fade-up">
+        <div class="container">
+            <h3 class="header">Commercial & Residential Services</h3>
+            <div class="service-row">
+                <div class="service-col mb-lg-0 mb-5">
+                    <div class="img-div">
+                        <img src="/img/commercial-lawn.jpg" alt="Commercial Lawn">
+                    </div>
+                    <div class="info-div">
+                        <a title="Commercial Lawn Service" href="/commercial-services-baytown.html"
+                            class="service-header">Commercial Lawn Services <i
+                                class="fa-solid fa-chevron-right fs-4"></i></a>
+                        <p>Introducing J&R Lawn Service, your premier choice for landscaping in Baytown, Texas. Our
+                            dedicated team of experts transforms ordinary outdoor spaces into captivating landscapes
+                            that leave a lasting impression. With meticulous attention to detail and tailored services,
+                            we create visually stunning environments that set your business apart.</p>
+                        <div class="d-vsm-flex gap-3">
+                            <a title="Call Now" class="col btn btn-primary rounded-1 d-block fs-19 mb-vsm-0 mb-3"
+                                href="tel:+13463429763">Call
+                                Now</a>
+                            <a title="Learn More"
+                                class="col btn btn-outline-primary border-3 fw-500 rounded-1 d-block fs-19"
+                                href="/residential-services-baytown.html">Learn More</a>
+                        </div>
+                    </div>
+                </div>
 
-                    Introducing J&R Lawn Service, your premier choice for landscaping in Baytown,
-                    Texas. Our dedicated team of experts transforms ordinary outdoor spaces into captivating
-                    landscapes that leave a lasting impression. With meticulous attention to detail and tailored
-                    services, we create visually stunning environments that set your business apart.
-                    <br><br>
-                    Experience the difference with our expert design, installation, and maintenance services. From
-                    vibrant flower beds to elegant hardscapes, we bring your vision to life with exceptional
-                    results.
-                </p>
-                <a title="free quote" href="tel:+13463429763" class="mt-4 btn btn-primary px-4 fs-18 rounded-1"> <i
-                        class="fa-solid fa-phone-volume me-2"></i>Call Now</a>
-            </div>
-            <div class="card">
-                <img class="h-100" style="filter: brightness(90%);" class="img-fluid rounded" src="/img/trimming.jpeg"
-                    alt="Lawn Mowing">
+                <div class="service-col">
+                    <div class="img-div">
+                        <img src="/img/resident-lawn.jpg" alt="Resident Lawn">
+                    </div>
+                    <div class="info-div">
+                        <a title="Commercial Lawn Services" href="/residential-services-baytown.html"
+                            class="service-header">Residential Lawn Services <i
+                                class="fa-solid fa-chevron-right fs-4"></i></a>
+                        <p>Introducing J&R Lawn Service, your premier choice for landscaping in Baytown, Texas. Our
+                            dedicated team of experts transforms ordinary outdoor spaces into captivating landscapes
+                            that leave a lasting impression. With meticulous attention to detail and tailored services,
+                            we create visually stunning environments that set your business apart.</p>
+                        <div class="d-vsm-flex gap-3">
+                            <a title="Call Now" class="col btn btn-primary rounded-1 d-block fs-19 mb-vsm-0 mb-3"
+                                href="tel:+13463429763">Call
+                                Now</a>
+                            <a title="Learn More"
+                                class="col btn btn-outline-primary border-3 fw-500 rounded-1 d-block fs-19"
+                                href="/residential-services-baytown.html">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="py-2 position-relative border-5 border-top border-bottom border-primary">
-        <img class="bg-img" style="filter: brightness(30%);" src="/img/aerial-view-lawn-mowing.jpg" alt="">
+    <!-- Ratings -->
+    <section class="ratings py-2 position-relative" data-aos="fade-up">
+        <img class="bg-img" style="filter: brightness(30%);" src="/img/aerial-view-lawn-mowing.jpg"
+            alt="Aerial Lawn Mowing">
         <div class="ratings-grid mt-5 container">
             <div class="ratings-card">
                 <img src="/img/facebook.png" alt="facebok logo">
@@ -426,214 +526,183 @@
                 </p>
             </div>
         </div>
-    </section>
 
-    <section class="how-it-works mt-5 position-relative">
-        <div class="container">
-            <h3 class="header">How it works</h3>
-            <div class="how-it-works-row">
-                <div class="col">
-                    <img src="/img/Get in touch-amico.png" alt="free estimate">
-                    <h5>1. Fill Free Estimate Form </h5>
-                    <p>Get started by filling out our free estimate form. We'll gather the necessary details to provide
-                        you with an accurate quote tailored to your lawn care needs.</p>
-                </div>
+        <div class="custom-shape-divider-top-1692342609">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
 
-                <div class="col">
-                    <img src="/img/Relaxing at home-pana.png" alt="We come">
-                    <h5>2. Sit Back and Relax</h5>
-                    <p>Leave the cleanup to us! Our dedicated team will take care of all the necessary tasks, from
-                        mowing to debris removal.</p>
-                </div>
-
-                <div class="col">
-                    <img src="/img/Gardening-bro.png" alt="Outstanding Lawn">
-                    <h5>3. Achieve an Outstanding Lawn</h5>
-                    <p>Witness the transformation of your lawn into a lush and vibrant oasis with our expert care and
-                        high-quality products.</p>
-                </div>
-            </div>
-
-            <div class="d-flex justify-content-center mt-5">
-                <a title="CTA" class="btn btn-primary fw-500 px-5 fs-18" href="tel:+13463429763">
-                    <i class="fa-solid fa-phone-volume me-2"></i> Call Now
-                </a>
-            </div>
+        <div class="custom-shape-divider-bottom-1692342683">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
         </div>
     </section>
 
+    <!-- Second About Us Section -->
+    <section class="flex-description flex-description-reverse position-relative my-5 py-3" data-aos="fade-up">
+        <div class="container flex">
+            <div class="info-div">
+                <h3 class="header">J&R Lawn Care & Landscaping Services</h3>
+                <p class="fs-18 mt-3">
 
-    <section class="service-areas my-5 py-4 position-relative">
-        <img class="img-fluid bg-img" src="/img/austin.jpg" alt="Austin Buildings">
-        <div class="container d-lg-flex justify-content-between py-5">
-            <div class="col-lg-6 me-2">
-                <h3 class="header text-primary">Areas We Service in Baytown</h3>
-                <p class="text-white fw-500 fs-18">
-                    Finding a lawn care company you can trust can be a challenge. We’re confident we’ll give you the
-                    best quality treatment for your satisfaction. We offer our lawn services to a variety of locations
-                    throughout Baytown, including:
+                    Introducing J&R Lawn Service, your premier choice for landscaping in Baytown,
+                    Texas. Our dedicated team of experts transforms ordinary outdoor spaces into captivating
+                    landscapes that leave a lasting impression. With meticulous attention to detail and tailored
+                    services, we create visually stunning environments that set your business apart.
+                    <br><br>
+                    Experience the difference with our expert design, installation, and maintenance services. From
+                    vibrant flower beds to elegant hardscapes, we bring your vision to life with exceptional
+                    results.
                 </p>
-
-                <div class="areas">
-                    <a title="Highland Woods" href="/lawn-care.html">
-                        <i class="fa-solid fa-chevron-right"></i>Highland Woods
-                    </a>
-                    <a title="Bluebonnet Hills" href="/lawn-care.html">
-                        <i class="fa-solid fa-chevron-right"></i>Bluebonnet Hills
-                    </a>
-                    <a title="Briarwood" href="/lawn-care.html">
-                        <i class="fa-solid fa-chevron-right"></i>Briarwood
-                    </a>
-                    <a title="Pairie Village" href="/lawn-care.html">
-                        <i class="fa-solid fa-chevron-right"></i>Pairie Village
-                    </a>
-                    <a title="San Jacinto" href="/lawn-care.html">
-                        <i class="fa-solid fa-chevron-right"></i>San Jacinto
-                    </a>
-                    <a title="White Lake" href="/lawn-care.html">
-                        <i class="fa-solid fa-chevron-right"></i>White Lake
-                    </a>
-                </div>
-
-                <a title="Free Quote" class="btn btn-primary fw-500 mt-5 btn-lg" href="tel:+13463429763">
-                    <i class="fa-solid fa-phone-volume me-2"></i> Call Now
-                </a>
+                <a title="Call Now" href="tel:+13463429763" class="mt-4 btn btn-primary px-4 fs-18 rounded-1"> <i
+                        class="fa-solid fa-phone-volume me-2"></i>Call Now</a>
             </div>
-            <div class="mt-lg-0 mt-5">
-                <img class="map img-fluid" src="/img/Baytown map.png" alt="Baytown Map">
+            <div class="img-div mt-lg-0 mt-5">
+                <img style="filter: brightness(90%);" class="img-fluid rounded" src="/img/trimming.jpeg"
+                    alt="Lawn Mowing">
             </div>
         </div>
     </section>
 
-    <section class="faq my-5" id="faq">
-        <div class="container py-5">
-            <h3 class="header mb-5">Frequently Asked Questions</h3>
+
+    <!-- * PORTFOLIO SECTION STARTS HERE  -->
+    <section class="portfolio py-5 mb-0" style="background-color: #d9e9d2;" data-aos="fade-up">
+        <div class="container">
             <div class="row">
-                <div class="accordion col-lg col-12" id="accordionExample ">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header accordion-topic mb-0 pb-0" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span class="">What services does J&R Lawn Care provide?</span>
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body text-info ">
-                                <p>
-                                    At J&R Lawn Care, we offer a wide range of services to keep your lawn looking
-                                    pristine. Our services include residential lawn mowing, commercial lawn care, tree
-                                    trimming, and more. Whether you need regular maintenance or a one-time cleanup,
-                                    we've got you covered.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header accordion-topic mb-0 pb-0" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <span class="">Which areas do you serve in Baytown, Texas?</span>
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body text-info">
-                                <p>
-                                    We proudly serve various areas in Baytown, Texas, including Baytown Woods,
-                                    Bluebonnet Hills, Briarwood, Pairie Village, San Jacinto, White Lake. Our goal is to
-                                    provide comprehensive coverage across the city, ensuring that
-                                    our services are accessible to residents and businesses in different neighborhoods.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header accordion-topic mb-0 pb-0" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span class=""> How can I request a free estimate?</span>
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body text-info">
-                                <p>
-                                    Requesting a free estimate is quick and easy. Simply visit our website and navigate
-                                    to the "Free Estimate" page. Fill out the form with your name, email, phone number,
-                                    and a brief description of the services you require. Our team will promptly get in
-                                    touch with you to discuss your needs and provide an accurate estimate.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="portfolio__title text-center">
+                    <h3 class="header">Our Gallery</h3>
                 </div>
 
-                <div class="accordion col-lg col-12" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header accordion-topic mb-0 pb-0" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <span class="">How often should I schedule lawn mowing services?</span>
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body text-info">
-                                The frequency of lawn mowing depends on various factors, including grass type, weather
-                                conditions, and the desired appearance of your lawn. Generally, we recommend scheduling
-                                regular lawn mowing every 1-2 weeks during the growing season to maintain optimal lawn
-                                health and appearance.
+                <div class="portfolio__img-container">
+                    <div class="portfolio-pic__row row">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="content">
+                                <img src="/img/artificial-lawn.jpg" class="img-fluid portfolio__img" alt="card-img-1" />
+                                <!-- * Overlay Section Started  -->
+                                <div class="content-overlay"></div>
+                                <div class="content-details content-details2 fadeIn-bottom fadeIn-right">
+                                    <p class="text-center fw-600 fs-28 content-overlay-text">
+                                        SOD Installation
+                                    </p>
+
+                                    <!-- * Overlay Section Ended  -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="content">
+                                <img src="/img/garden.jpg" class="img-fluid portfolio__img" alt="card-img-2" />
+                                <!-- * Overlay Section Started  -->
+                                <div class="content-overlay"></div>
+                                <div class="content-details content-details2 fadeIn-bottom fadeIn-right">
+                                    <p class="text-center fw-600 fs-28 content-overlay-text">
+                                        Garden with Mulching
+                                    </p>
+
+                                    <!-- * Overlay Section Ended  -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="content">
+                                <img src="/img/lawn.jpg" class="img-fluid portfolio__img" alt="card-img-3" />
+                                <!-- * Overlay Section Started  -->
+                                <div class="content-overlay"></div>
+                                <div class="content-details content-details2 fadeIn-bottom fadeIn-right">
+                                    <p class="text-center fw-600 fs-28 content-overlay-text">
+                                        Mulching in Yard
+                                    </p>
+
+                                    <!-- * Overlay Section Ended  -->
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header accordion-topic mb-0 pb-0" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <span class="">What sets J&R Lawn Care apart from other lawn care providers?</span>
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body text-info">
-                                At J&R Lawn Care, we stand out from the competition with our commitment to quality,
-                                reliability, and customer satisfaction. Our team of experienced professionals is
-                                dedicated to delivering exceptional results. We use state-of-the-art equipment, employ
-                                industry best practices, and provide personalized service to ensure your lawn and
-                                outdoor spaces receive the care they deserve.
+                    <div class="portfolio-pic__row row">
+                        <div class="col-xl-3 col-lg-3 col-md-4">
+                            <div class="content h-100">
+                                <img style="transform: scaleX(-1);" src="/img/lawn-with-home.jpg"
+                                    class="img-fluid portfolio__img" alt="card-img-4" />
+                                <!-- * Overlay Section Started  -->
+                                <div class="content-overlay"></div>
+                                <div class="content-details content-details2 fadeIn-bottom fadeIn-right">
+                                    <p class="text-center fw-600 fs-28 content-overlay-text">
+                                        Lawn
+                                    </p>
+
+                                    <!-- * Overlay Section Ended  -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-4">
+                            <div class="content h-100">
+                                <img src="/img/yard-cleanup.jpg" class="portfolio__img portfolio__img--big"
+                                    alt="card-img-5" />
+                                <!-- * Overlay Section Started  -->
+                                <div class="content-overlay"></div>
+                                <div class="content-details content-details2 fadeIn-bottom fadeIn-right">
+                                    <p class="text-center fw-600 fs-28 content-overlay-text">
+                                        Yard Cleanup
+                                    </p>
+
+                                    <!-- * Overlay Section Ended  -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4">
+                            <div class="content h-100">
+                                <img src="/img/mulching.jpg" class="img-fluid portfolio__img" alt="card-img-6" />
+                                <!-- * Overlay Section Started  -->
+                                <div class="content-overlay"></div>
+                                <div class="content-details content-details2 fadeIn-bottom fadeIn-right">
+                                    <p class="text-center fw-600 fs-28 content-overlay-text">
+                                        Mulching
+                                    </p>
+
+                                    <!-- * Overlay Section Ended  -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <p class="mt-5 d-flex justify-content-center">
-                More Questions?
-                <a href="tel:+13463429763">
-                    <span class="text-primary fw-600 ps-1"> <u>Call Now</u></span></a>
-            </p>
         </div>
     </section>
 
-    <footer>
-        <hr />
+    <!-- Footer -->
+    <footer data-aos="fade-up">
         <div class="container mt-5">
             <div class="row fw-500 fs-16">
                 <div class="col-lg pe-lg-5 me-lg-5 col-12 mb-lg-0 mb-5 text-lg-left">
-                    <img src="/img/logo-img-normal.png" alt="logo" width="200" height="200"
-                        class="d-inline-block my-auto mb-3" />
+                    <img src="/img/logo.png" alt="logo" width="200" height="200" class="d-inline-block my-auto mb-3" />
                 </div>
 
                 <div class="col-lg col-md-4 col-12 mb-lg-0 mb-4 footer-col text-left">
                     <p class="mb-3"><strong class="text-primary h5 fw-600 fs-16"> Company</strong></p>
                     <div class="text-info">
-                        <p><a title="Landscaping" href="/landscaping.html">Landscaping</a></p>
                         <p><a title="Lawn Care" href="/lawn-care.html">Lawn Care</a></p>
-                        <p><a title="Contact Us" href="/contact.html">Contact Us</a></p>
+                        <p><a title="Yard Cleanup" href="/yard-cleanup-near-baytwon.html">Yard Cleanup</a></p>
                         <p><a title="Lawn Mowing" href="/lawn-mowing-Baytown.html">Lawn Mowing</a></p>
                         <p><a title="Free Quote" href="tel:+13463429763">Free Quote</a></p>
                     </div>
@@ -642,10 +711,12 @@
                 <div class="col-lg col-md-4 col-12 mb-lg-0 mb-4 footer-col text-left">
                     <p class="mb-3"><strong class="text-primary h5 fw-600 fs-16"> Quick Links</strong></p>
                     <div class="text-info">
-                        <p><a title="FAQ" href="/index.html#faq">FAQ</a></p>
-                        <p><a title="Services" href="/index.html#ourServices">Services</a></p>
-                        <p><a title="Testimonials" href="/index.html#testimonials">Testimonials</a></p>
-                        <p><a title="Why Us" href="/index.html#whyUs">Why Us</a></p>
+                        <p><a title="Commercial Services" href="/commercial-services-baytown.html">Commercial
+                                Services</a></p>
+                        <p><a title="Lawn Services" href="/lawn-services-baytown.html">Lawn Services</a></p>
+                        <p><a title="Residential Services" href="/residential-services-baytown.html">Residential
+                                Services</a></p>
+                        <p><a title="Landscaping" href="/landscaping-services-baytown.html">Landscaping Services</a></p>
                     </div>
                 </div>
 
@@ -684,19 +755,6 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-
-    <!-- Slick -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-        crossorigin="anonymous"></script>
 
     <script src="/js/index.js"></script>
 </body>

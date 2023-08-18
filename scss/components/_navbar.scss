@@ -11,26 +11,29 @@
 
     margin-bottom: 2rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px -2px;
-    // box-shadow: 0 4px 2px -2px gray;
 }
 
 nav {
     background-color: #ffffff;
+    max-height: 8rem;
 
-    @media (min-height: 1200px) {
-        max-height: 8rem;
+    .container {
+        @media (max-width: 1200px) {
+            max-height: 8rem;
+            flex-wrap: nowrap !important;
+        }
     }
 
     .navbar-brand {
         img {
             width: 13rem;
             object-fit: contain;
-            @media (min-height: 1200px) {
-                margin-bottom: -5rem;
-            }
+            margin-bottom: -5rem;
+
 
             @media (max-width: 576px) {
-                width: 8rem;
+                width: 10rem;
+                margin-bottom: -2rem;
             }
         }
     }
@@ -42,7 +45,10 @@ nav {
         .nav-item {
             font-weight: 500;
             font-size: 18px;
-            margin: 0 1rem;
+
+            @media (min-width: 1400px) {
+                margin: 0 1rem;
+            }
 
             .nav-link {
                 color: $dark;

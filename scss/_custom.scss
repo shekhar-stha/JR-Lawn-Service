@@ -22,6 +22,7 @@ $container-max-widths: (
 );
 $grid-breakpoints: (
     xs: 0,
+    vsm: 350px,
     sm: 576px,
     md: 768px,
     lg: 992px,
@@ -96,7 +97,7 @@ $grid-breakpoints: (
     font-size: 28px;
 }
 
-.lh-25{
+.lh-25 {
     line-height: 25px;
 }
 
@@ -104,19 +105,19 @@ p {
     margin: 0px;
 }
 
-.btn{
+.btn {
     padding-top: 9px;
     padding-bottom: 9px;
 }
 
 
-.btn-primary{
+.btn-primary {
     color: $white;
     font-weight: 500;
     border: 2px solid $primary;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: $primary;
     background-color: transparent;
     border: 2px solid $primary;
