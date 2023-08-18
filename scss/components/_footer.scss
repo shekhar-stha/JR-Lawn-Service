@@ -19,4 +19,10 @@ footer {
         }
     }
 
+    .footer-logo {
+        @media (max-width: 200px) {
+            max-width: calc(100% - 2rem);
+            object-fit: contain;
+        }
+    }
 }

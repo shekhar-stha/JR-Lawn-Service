@@ -25,6 +25,9 @@ nav {
     }
 
     .navbar-brand {
+        @media (max-width: 270px) {
+            max-width: calc(100% - 5rem);
+        }
         img {
             width: 13rem;
             object-fit: contain;
@@ -34,6 +37,9 @@ nav {
             @media (max-width: 576px) {
                 width: 10rem;
                 margin-bottom: -2rem;
+            }
+            @media (max-width: 270px) {
+                width: 100%
             }
         }
     }
